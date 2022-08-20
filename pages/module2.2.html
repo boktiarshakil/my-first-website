@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Started using css in a style.css file</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <h1>Started using css in a style.css file</h1>
+    <h2>সিএসএস বক্স মডেল - CSS Box Model</h2>
+    <p class="bangla">সিএসএস বক্স মডেল হল এইচটিএমএল এলিমেন্টের চারপাশের বর্ডার, মার্জিন, প্যাডিং এবং এলিমেন্ট বা
+        কন্টেন্ট এর সম্মিলিত
+        অবস্থা। বক্স মডেল প্রপার্টিগুলো কোন কন্টেন্ট এর চারপাশে বর্ডার, মার্জিন, প্যাডিং বা আউটলাইন নির্ধারণ করে।</p>
+    <h2>বক্স মডেলের বিভিন্ন অংশের বর্ণনা</h2>
+    <p class="bangla">
+        Margin - বর্ডারের চারপাশের ফাকা স্থান নির্ধারণ করাই হল মার্জিন। মার্জিনের পৃষ্ঠদেশ বা background এ কোন রঙ
+        ব্যবহার করা যায় না, এটা পুরোপুরি transparent বা স্বচ্ছ।<br>
+        Border - কন্টেন্ট প্যাডিং এর চারপাশে অর্থাৎ মার্জিন এবং প্যাডিং এর মধ্যস্থানেই বর্ডার অবস্থান করে। পৃষ্ঠদেশ বা
+        background এর রং, বর্ডার এর উপর প্রভাব বিস্তার করে।<br>
+        Padding - কন্টেন্ট এর চারপাশের ফাকা স্থান নির্ধারণ করা হয় প্যাডিং ব্যবহার করে। প্যাডিং পৃষ্ঠদেশ বা background এ
+        কোন রঙ ব্যবহার করা যায় না, এটা পুরোপুরি transparent বা স্বচ্ছ।<br>
+        Content - বক্স মডেলের কোন কন্টেন্ট হল টেক্সট, ছবি ইত্যাদি, অর্থাৎ যেগুলো ওয়েব পেজে প্রদর্শিত হয়।
+    </p>
+    <h2>বক্স মডেলের গাণিতিক হিসেব</h2>
+    <p class="bangla">সিএসএস দিয়ে যখন আমরা কোন এইচটিএমএল এলিমেন্টের width এবং height নির্ধারণ করি, তখন আমরা আসলে কেবল কন্টেন্ট, যেমন-
+        কোন ছবি, কোন পারাগ্রাফ ইত্যাদির জন্য পুরো width এবং height নির্ধারণ করি। কিন্তু ওয়েব পেজে সুন্দরভাবে কোন
+        কন্টেন্ট প্রদর্শনের জন্য অবশ্যই প্যাডিং, বর্ডার এবং মার্জিন নির্ধারণ করতে হবে।
+        কোন এইচটিএমএল এলিমেন্টের সঠিক আকার জানতে হলে, বর্ডার, প্যাডিং এবং মার্জিন ও হিসেব করতে হবে।
+    </p>
+    <pre class="prexm">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Started using css in a style.css file&lt;/title&gt;
+    &lt;link rel="stylesheet" href="../style.css"&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;h1&gt;Started using css in a style.css file&lt;/h1&gt;
+    &lt;h2&gt;সিএসএস বক্স মডেল - CSS Box Model&lt;/h2&gt;
+    &lt;p class="bangla"&gt;সিএসএস বক্স মডেল হল এইচটিএমএল এলিমেন্টের চারপাশের বর্ডার, মার্জিন, প্যাডিং এবং এলিমেন্ট বা
+        কন্টেন্ট এর সম্মিলিত
+        অবস্থা। বক্স মডেল প্রপার্টিগুলো কোন কন্টেন্ট এর চারপাশে বর্ডার, মার্জিন, প্যাডিং বা আউটলাইন নির্ধারণ করে।&lt;/p&gt;
+    &lt;h2&gt;বক্স মডেলের বিভিন্ন অংশের বর্ণনা&lt;/h2&gt;
+    &lt;p class="bangla"&gt;
+        Margin - বর্ডারের চারপাশের ফাকা স্থান নির্ধারণ করাই হল মার্জিন। মার্জিনের পৃষ্ঠদেশ বা background এ কোন রঙ
+        ব্যবহার করা যায় না, এটা পুরোপুরি transparent বা স্বচ্ছ।&lt;br&gt;
+        Border - কন্টেন্ট প্যাডিং এর চারপাশে অর্থাৎ মার্জিন এবং প্যাডিং এর মধ্যস্থানেই বর্ডার অবস্থান করে। পৃষ্ঠদেশ বা
+        background এর রং, বর্ডার এর উপর প্রভাব বিস্তার করে।&lt;br&gt;
+        Padding - কন্টেন্ট এর চারপাশের ফাকা স্থান নির্ধারণ করা হয় প্যাডিং ব্যবহার করে। প্যাডিং পৃষ্ঠদেশ বা background এ
+        কোন রঙ ব্যবহার করা যায় না, এটা পুরোপুরি transparent বা স্বচ্ছ।&lt;br&gt;
+        Content - বক্স মডেলের কোন কন্টেন্ট হল টেক্সট, ছবি ইত্যাদি, অর্থাৎ যেগুলো ওয়েব পেজে প্রদর্শিত হয়।
+    &lt;/p&gt;
+    &lt;h2&gt;বক্স মডেলের গাণিতিক হিসেব&lt;/h2&gt;
+    &lt;p class="bangla"&gt;সিএসএস দিয়ে যখন আমরা কোন এইচটিএমএল এলিমেন্টের width এবং height নির্ধারণ করি, তখন আমরা আসলে কেবল কন্টেন্ট, যেমন-
+        কোন ছবি, কোন পারাগ্রাফ ইত্যাদির জন্য পুরো width এবং height নির্ধারণ করি। কিন্তু ওয়েব পেজে সুন্দরভাবে কোন
+        কন্টেন্ট প্রদর্শনের জন্য অবশ্যই প্যাডিং, বর্ডার এবং মার্জিন নির্ধারণ করতে হবে।
+        কোন এইচটিএমএল এলিমেন্টের সঠিক আকার জানতে হলে, বর্ডার, প্যাডিং এবং মার্জিন ও হিসেব করতে হবে।
+    &lt;/p&gt;
+
+
+    &lt;footer&gt;
+        &lt;h2&gt;&lt;a href="module2.1.html"&gt;Go back to module 2.1&lt;/a&gt; &lt;/h2&gt;
+        &lt;h2&gt;&lt;a href="../index.html"&gt;Go to main site&lt;/a&gt; &lt;/h2&gt;
+    &lt;/footer&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</pre>
+
+
+    <footer>
+        <h2><a href="module2.1.html">Go back to module 2.1</a> </h2>
+        <h2><a href="module3rd.html">Go to module 3</a> </h2>
+        <h2><a href="../index.html">Go to main site</a> </h2>
+    </footer>
+</body>
+
+</html>
